@@ -375,9 +375,15 @@ ui <- shinyUI(navbarPage(theme = "style_general.css",
                    a("Open Government Data", 
                      href = "https://www.data.gv.at/katalog/dataset/3179c5b2-9bb5-4a7f-a573-5491ccb0110b"), "verfügbar.",  align = "justify"
                  ),
+                 p("Die Daten der Wählerstromanalyse stammen von ",
+                   a("SORA.", 
+                     href = "http://www.sora.at/fileadmin/downloads/wahlen/2017_NRW-Waehlerstroeme_Tabellen.pdf")),
+                 p("Die Daten vergangener Nationalratswahlen seit 1945 stammen vom ",
+                   a("Bundesministerium für Inneres.",
+                     href = "http://www.bmi.gv.at/")),
                  p("Der R-Source-Code ist auf", 
                    a("GitHub",
-                     href = "https://github.com/rlukevie/shiny_prototypes"),  "verfügbar.",  align = "justify"
+                     href = "https://github.com/rlukevie/shinymap2017"),  "verfügbar.",  align = "justify"
                  )
                ),
                mainPanel(
