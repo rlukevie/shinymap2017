@@ -360,16 +360,12 @@ ui <- shinyUI(navbarPage(theme = "style_general.css",
              sidebarLayout(         
                sidebarPanel(
                  h3("Über"),
-                 # p("Dieses Projekt ist eine Zusammenarbeit von Antonio Jurina, Roland Lukesch, Christof Nachtigal und Sladjan Zivojinovic im Rahmen der Lehrveranstaltung",
-                 #   em ("Projektseminar aus Geoinformation"), "unter der Leitung", 
-                 #   a("Univ.-Prof. Dipl.-Ing. Dr. Wolfgang Kainz",
-                 #     href = "https://carto.univie.ac.at/personal/wolfgang-kainz/"),
-                 #   "an der Universität Wien im Wintersemester 2017/18 entstanden." ,  align = "justify"
-                 # ),
-                 p("Dieses Projekt ist in Zusammenarbeit von Antonio Jurina, Roland Lukesch und Christof Nachtigal im Rahmen der Lehrveranstaltung",
-                   em ("Proseminar Big Data in der Geoinformationsverarbeitung"), 
-                   "unter der Leitung von", em("Markus Reitmair, BSc MSc"), "an der Universität Wien im Wintersemester 2017/18 entstanden." ,  align = "justify"),
-                 
+                 p("Dieses Projekt ist eine Zusammenarbeit von Antonio Jurina, Roland Lukesch, Christof Nachtigal und Sladjan Zivojinovic im Rahmen der Lehrveranstaltung",
+                   em ("Projektseminar aus Geoinformation"), "unter der Leitung",
+                   a("Univ.-Prof. Dipl.-Ing. Dr. Wolfgang Kainz",
+                     href = "https://carto.univie.ac.at/personal/wolfgang-kainz/"),
+                   "an der Universität Wien im Wintersemester 2017/18 entstanden." ,  align = "justify"
+                 ),
                  h3("Copyright"),
                  p("Die Ergebnisse der Nationalratswahl 2017 sind auf",
                    a("Open Government Data", 
